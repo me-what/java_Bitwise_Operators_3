@@ -26,6 +26,21 @@ public class Main {
         System.out.println("Result in binary string = " + Integer.toBinaryString(result3) + "\n"); // Result in binary string = 1
 
 
+        int result6 = 3;
+        for (int i = 0; i < 10; i++) {
+            result6 = result6 << 1;
+            System.out.println(result6);
+        }
+        System.out.println();
+
+        int result7 = 1000;
+        for (int i = 0; i < 32; i++) {
+            result7 = result7 << 1;
+            System.out.println(result7);
+        }
+        System.out.println();
+
+
         int a4 = 10;
         int b4 = 1;
         int c = a4 >> b4;
